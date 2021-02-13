@@ -36,4 +36,4 @@ client.on('message', function(message) {
 
   
 
-client.login(process.env.DISCORD_TOKEN)
+client.login("ODEwMjU1Njk4MzQ4MDgxMTgy.YCg_bA.CRfXCw7M8YO60USHENZIB22W7OQ")

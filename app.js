@@ -34,19 +34,6 @@ client.on('message', function(message) {
     }
 })
 
-  client.on("ready", () => {
-  console.log(`Online In Servers : ${client.guilds.size} `);
 
-  let statuses = [` SOON `];
-
-  setInterval(function() {
-    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-
-    client.user.setActivity(STREAMING, {
-      type: "playing",
-      url: "https://www.twitch.tv/faith"
-    });
-  }, 2000);
-});
 
 client.login("ODEwMjU1Njk4MzQ4MDgxMTgy.YCg_bA.CRfXCw7M8YO60USHENZIB22W7OQ")
